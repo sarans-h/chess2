@@ -1,0 +1,24 @@
+{
+  "name": "chess",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chess": "^1.2.1",
+    "chess.js": "^1.0.0-beta.8",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.5",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
